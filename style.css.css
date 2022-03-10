@@ -1,0 +1,32 @@
+#topbar{
+    background-color: brown;
+    grid-area: topbar;
+}
+#sidebar{
+    background-color: blue;
+    grid-area: sidebar;
+}
+#mainbar{
+    background-color: aqua;
+    grid-area: mainbar;
+}
+#leftbar{
+    background-color: violet;
+    grid-area: leftbar;
+}
+#rightbar{
+    background-color: blueviolet;
+    grid-area: rightbar;
+}
+#footer{
+    background-color: yellowgreen;
+    grid-area: footer;
+}
+
+.CIS{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+   grid-template-rows: 0.2fr 1fr 1fr 0.3fr;
+   height: 100vh;
+   grid-template-areas: "topbar topbar topbar topber" "sidebar mainbar mainbar mainbar""sidebar leftbar rightbar rightbar""footer footer footer footer";
+}
